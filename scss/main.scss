@@ -1,0 +1,21 @@
+// *{
+//     padding: 0;
+//     margin: 0;
+// }
+
+body{
+    background-color: cadetblue;
+    height: 2000px;
+}
+
+.tbl{
+    tr{
+        &:nth-child(1){
+            background-color: #fff;
+        }
+        td{
+            padding: 5px;
+            text-align: center;
+        }
+    }
+}

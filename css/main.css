@@ -1,0 +1,14 @@
+body {
+  background-color: cadetblue;
+  height: 2000px;
+}
+
+.tbl tr:nth-child(1) {
+  background-color: #fff;
+}
+
+.tbl tr td {
+  padding: 5px;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
