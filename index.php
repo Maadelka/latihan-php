@@ -13,8 +13,6 @@ function query($query){
 
 // =ambil data
 $mahasiswa=query("SELECT * FROM mahasiswa" );
-
-
 $barang= ["mie rebus", "teh gelas", "teh talua", "soda susu", "nasi goreng", "lontong", "pecel lele"];
 
 
@@ -33,11 +31,17 @@ $siswa2=[
     ["Egi Maulana", "Pertanian", "mailana@gmail.com"],
     ["Arya Octa", "Tataboga", "Fani@gmail.com"],
 ];
-
-
 ?>
 
-<!-- ==============html -->
+
+
+
+
+
+
+
+
+<!-- ==========================================================================html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,9 +52,8 @@ $siswa2=[
     <title>latihan array</title>
 </head>
 <body>
-    
-<h1>hello world!</h1>
 
+<h1>hello world!</h1>
 <!-- ---------------------------------array -->
 <ul>
     <?php foreach($barang as $b) : ?>
@@ -58,7 +61,6 @@ $siswa2=[
     <?php endforeach ?>
 </ul>
 <br>
-
 
  <!-- ==============================nesting array tampil dalam list-->
 <?php foreach($siswa as $s) : ?>
@@ -69,9 +71,6 @@ $siswa2=[
     </ul>
     <br>
 <?php endforeach ?>
-
-
-
 
 <!-- ==============================nesting array tampil dalam table-->
 <table border="1" cellspacing="1px" class="tbl">
@@ -90,14 +89,7 @@ $siswa2=[
 </table>
 <br>
 
-
-
-
-
-
-
 <!-- ================================================= file database -->
-
 <table border="1" cellspacing="2px" cellpadding="10" >
     <tr>
         <th>No.</th>
@@ -121,15 +113,6 @@ $siswa2=[
     </tr>
     <?php $i++; ?>
     <?php endforeach ?>
-
 </table>
-
-
-
-
-
-
-
-
 </body>
 </html>
